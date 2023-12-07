@@ -1,0 +1,17 @@
+const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
+  projectId: '1458ep',
+  e2e: {
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+    },
+    // baseUrl: "https://google.com"
+    // viewportHeight: 550,
+    // viewportWidth:750
+  }
+    
+  }
+)
+
+
